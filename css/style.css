@@ -126,16 +126,20 @@ img{
 
   /* Requirement 15 code here -- Do not remove this comment. */
   .clients-image, .contact-image, .about-image, .method-image{
-    overflow: hidden;
     display: flex;
-    /* justify-content: center; */
-    /* object-fit */
+    /* border: yellow 2px solid; */
+    object-fit: contain;
+    overflow: hidden;
+    justify-content: center;
+    background-color: red;
   }
 
 
   .clients-image img, .contact-image img, .about-image img, .method-image img{
     display: flex;
-    object-fit: contain;
+    flex: 0 1 auto;
+    object-fit: fill;
+    background-color: blue;
   }
 
 }
