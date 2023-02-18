@@ -128,7 +128,7 @@ img{
   .clients-image, .contact-image, .about-image, .method-image{
     display: flex;
     /* border: yellow 2px solid; */
-    object-fit: contain;
+    /* object-fit: contain; */
     overflow: hidden;
     justify-content: center;
     background-color: red;
@@ -137,7 +137,7 @@ img{
 
   .clients-image img, .contact-image img, .about-image img, .method-image img{
     display: flex;
-    flex: 0 1 auto;
+    /* flex: 0 1 auto; */
     object-fit: fill;
     background-color: blue;
   }
