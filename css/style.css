@@ -126,18 +126,17 @@ img{
 
   /* Requirement 15 code here -- Do not remove this comment. */
   .clients-image, .contact-image, .about-image, .method-image{
-    /* overflow: hidden; */
+    overflow: hidden;
     display: flex;
     /* justify-content: center; */
-    object-fit: contain;
+    /* object-fit */
   }
 
-  
-  /* .clients-image img, .contact-image img, .about-image img, .method-image img{
+
+  .clients-image img, .contact-image img, .about-image img, .method-image img{
     display: flex;
-    flex: 0 1 auto;
     object-fit: contain;
-  } */
+  }
 
 }
 
@@ -150,13 +149,13 @@ img{
     html{
       scroll-behavior: auto; /* Removes scroll animation */
     }
-  
+
     /*Turn off transition*/
     a.skip {
       -webkit-transition: initial; /* sets to default setting */
       transition: initial; /* sets to default setting */
     }
-  
+
     /*Turn off parallax*/
     .intro{
       background-attachment: initial;
